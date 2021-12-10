@@ -1,2 +1,5 @@
 <h1>Say {{childMessage}}</h1>
 <button (click)="sendMessage()">Click to Emit from child</button>
+
+<ng-content [question]></ng-content>
+<ng-content [answer]></ng-content>
